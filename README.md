@@ -36,46 +36,46 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">🔎 About The Project</a>
       <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#features">✨ Features</a></li>
+        <li><a href="#built-with">🔨 Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">🚀 Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">📝 Prerequisites</a></li>
         <li>
-          <a href="#installation">Installation</a>
+          <a href="#installation">📥 Installation</a>
           <ul>
-            <li><a href="#server-setup">Server Setup</a></li>
-            <li><a href="#client-setup">Client Setup</a></li>
+            <li><a href="#server-setup">🖥 Server Setup</a></li>
+            <li><a href="#client-setup">👨🏻‍💼 Client Setup</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>
-      <a href="#usage">Usage</a>
+      <a href="#usage">🧩 Usage</a>
       <ul>
-        <li><a href="#testing-locally">Testing Locally</a></li>
+        <li><a href="#testing-locally">🧪 Testing Locally</a></li>
         <li>
-          <a href="#demos">Demos</a>
+          <a href="#demos">📽️ Demos</a>
           <ul>
-            <li><a href="#demo-with-60000-clients">Demo with 60,000 clients</a></li>
-            <li><a href="#demo-showcasing-the-interface">Demo showcasing the interface</a></li>
+            <li><a href="#demo-with-60000-clients">🥇 Demo with 60,000 clients</a></li>
+            <li><a href="#demo-showcasing-the-interface">🥈 Demo showcasing the interface</a></li>
           </ul>
         </li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contributing">🤝 Contributing</a></li>
+    <li><a href="#license">©️ License</a></li>
+    <li><a href="#contact">☎️ Contact</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 🔎 About The Project <a id="about-the-project"></a>
 
 <div align="center">
   <a href="https://github.com/vectorete/server-multiclient-drones">
@@ -87,7 +87,7 @@ The Drone Monitoring System is a project that simulates a drone monitoring syste
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Features
+### ✨ Features
 
 - **Client-Server Architecture**: Uses TCP sockets to establish communication between drones (clients) and the server.
 - **Client Simulation**: Clients send position data to the server, which then forwards this data to other clients.
@@ -96,24 +96,24 @@ The Drone Monitoring System is a project that simulates a drone monitoring syste
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+### 🔨 Built With
 * [![Java][Java]][Java-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 🚀 Getting Started
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### 📝 Prerequisites
 
 * Java Development Kit (JDK): Ensure you have JDK 8 or higher installed.
 * Network Configuration: Ensure your network allows communication on the specified ports.
 
-### Installation
+### 📥 Installation
 
-#### Server Setup
+#### 🖥 Server Setup
 
 1. **Compile the server code**:
     ```sh
@@ -124,7 +124,7 @@ To get a local copy up and running follow these simple steps.
     java Servidor.java
     ```
 
-#### Client Setup
+#### 👨🏻‍💼 Client Setup
 
 1. **Compile the client code**:
     ```sh
@@ -138,9 +138,9 @@ To get a local copy up and running follow these simple steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## 🧩 Usage
 
-### Testing Locally
+### 🧪 Testing Locally
 
 When testing locally, be aware of the following:
 
@@ -156,12 +156,12 @@ When testing locally, be aware of the following:
      ```
      Replace `xxxxx` with the starting port number and `yyyyy` with the number of ports.
 
-### Demos
+### 📽️ Demos
 
-#### Demo with 60,000 clients
+#### 🥇 Demo with 60,000 clients
 [![Demo1](https://img.youtube.com/vi/ryzMgj_m2p8/0.jpg)](https://www.youtube.com/watch?v=ryzMgj_m2p8)
 
-#### Demo showcasing the interface
+#### 🥈 Demo showcasing the interface
 [![Demo2](https://img.youtube.com/vi/8YvBKZ6ilX4/0.jpg)](https://www.youtube.com/watch?v=8YvBKZ6ilX4)
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -169,7 +169,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributing
+## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -184,14 +184,14 @@ If you have a suggestion that would make this better, please fork the repo and c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-## License
+## ©️ License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## ☎️ Contact
 
 Victor Kravchuk Vorkevych - victorkravchuk19@gmail.com
 
