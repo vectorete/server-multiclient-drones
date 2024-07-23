@@ -158,10 +158,10 @@ When testing locally, be aware of the following:
 
 ### 📽️ Demos <a id="demos"></a>
 
-#### 🥇 Demo with 60,000 clients <a id="#demo1"></a>
+#### 🥇 Demo with 60,000 clients <a id="demo1"></a>
 [![Demo1](https://img.youtube.com/vi/ryzMgj_m2p8/0.jpg)](https://www.youtube.com/watch?v=ryzMgj_m2p8)
 
-#### 🥈 Demo showcasing the interface <a id="#demo2"></a>
+#### 🥈 Demo showcasing the interface <a id="demo2"></a>
 [![Demo2](https://img.youtube.com/vi/8YvBKZ6ilX4/0.jpg)](https://www.youtube.com/watch?v=8YvBKZ6ilX4)
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -169,7 +169,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## 🤝 Contributing <a id="#contributing"></a>
+## 🤝 Contributing <a id="contributing"></a>
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -184,14 +184,14 @@ If you have a suggestion that would make this better, please fork the repo and c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-## ©️ License <a id="#license"></a>
+## ©️ License <a id="license"></a>
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## ☎️ Contact <a id="#contact"></a>
+## ☎️ Contact <a id="contact"></a>
 
 Victor Kravchuk Vorkevych - victorkravchuk19@gmail.com
 
