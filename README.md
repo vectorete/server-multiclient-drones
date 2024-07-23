@@ -87,7 +87,7 @@ The Drone Monitoring System is a project that simulates a drone monitoring syste
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### ✨ Features
+### ✨ Features <a id="features"></a>
 
 - **Client-Server Architecture**: Uses TCP sockets to establish communication between drones (clients) and the server.
 - **Client Simulation**: Clients send position data to the server, which then forwards this data to other clients.
@@ -96,24 +96,24 @@ The Drone Monitoring System is a project that simulates a drone monitoring syste
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 🔨 Built With
+### 🔨 Built With <a id="built-with"></a>
 * [![Java][Java]][Java-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## 🚀 Getting Started
+## 🚀 Getting Started <a id="getting-started"></a>
 
 To get a local copy up and running follow these simple steps.
 
-### 📝 Prerequisites
+### 📝 Prerequisites <a id="prerrequisites"></a>
 
 * Java Development Kit (JDK): Ensure you have JDK 8 or higher installed.
 * Network Configuration: Ensure your network allows communication on the specified ports.
 
-### 📥 Installation
+### 📥 Installation <a id="installation"></a>
 
-#### 🖥 Server Setup
+#### 🖥 Server Setup <a id="server-setup"></a>
 
 1. **Compile the server code**:
     ```sh
@@ -124,7 +124,7 @@ To get a local copy up and running follow these simple steps.
     java Servidor.java
     ```
 
-#### 👨🏻‍💼 Client Setup
+#### 👨🏻‍💼 Client Setup <a id="client-setup"></a>
 
 1. **Compile the client code**:
     ```sh
@@ -138,9 +138,9 @@ To get a local copy up and running follow these simple steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## 🧩 Usage
+## 🧩 Usage <a id="usage"></a>
 
-### 🧪 Testing Locally
+### 🧪 Testing Locally <a id="testing-locally"></a>
 
 When testing locally, be aware of the following:
 
@@ -156,12 +156,12 @@ When testing locally, be aware of the following:
      ```
      Replace `xxxxx` with the starting port number and `yyyyy` with the number of ports.
 
-### 📽️ Demos
+### 📽️ Demos <a id="demos"></a>
 
-#### 🥇 Demo with 60,000 clients
+#### 🥇 Demo with 60,000 clients <a id="#demo-with-60000-clients"></a>
 [![Demo1](https://img.youtube.com/vi/ryzMgj_m2p8/0.jpg)](https://www.youtube.com/watch?v=ryzMgj_m2p8)
 
-#### 🥈 Demo showcasing the interface
+#### 🥈 Demo showcasing the interface <a id="#demo-showcasing-the-interface">
 [![Demo2](https://img.youtube.com/vi/8YvBKZ6ilX4/0.jpg)](https://www.youtube.com/watch?v=8YvBKZ6ilX4)
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -169,7 +169,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## 🤝 Contributing
+## 🤝 Contributing <a id="#contributing">
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -184,14 +184,14 @@ If you have a suggestion that would make this better, please fork the repo and c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-## ©️ License
+## ©️ License <a id="#license">
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## ☎️ Contact
+## ☎️ Contact <a id="#contact">
 
 Victor Kravchuk Vorkevych - victorkravchuk19@gmail.com
 
