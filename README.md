@@ -77,7 +77,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Project][product-project]](https://example.com)
+<div align="center">
+  <a href="https://github.com/vectorete/server-multiclient-drones">
+    <img src="images/projectimg.png" alt="Project" width="50%">
+  </a>
+</div>
 
 The Drone Monitoring System is a project that simulates a drone monitoring system using a client-server architecture. The server manages multiple drone clients, processes their positions, and forwards position data to other drones. The system does not prevent collisions but efficiently manages a large number of clients for testing purposes.
 
@@ -209,6 +213,6 @@ Project Link: [https://github.com/vectorete/server-multiclient-drones](https://g
 [license-url]: https://github.com/vectorete/server-multiclient-drones/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/vectorete
-[product-project]: images/project.png
+[product-project]: images/projectimg.png
 [Java]:	https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [Java-url]: https://java.com
