@@ -106,7 +106,7 @@ The Drone Monitoring System is a project that simulates a drone monitoring syste
 
 To get a local copy up and running follow these simple steps.
 
-### 📝 Prerequisites <a id="prerrequisites"></a>
+### 📝 Prerequisites <a id="prerequisites"></a>
 
 * Java Development Kit (JDK): Ensure you have JDK 8 or higher installed.
 * Network Configuration: Ensure your network allows communication on the specified ports.
