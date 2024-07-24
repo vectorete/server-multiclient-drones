@@ -128,6 +128,7 @@ To get a local copy up and running follow these simple steps.
 ### 📝 Prerequisites <a id="prerequisites"></a>
 
 * Java Development Kit (JDK): Ensure you have JDK 8 or higher installed.
+> JDK 21 if you will use the interface
 * Network Configuration: Ensure your network allows communication on the specified ports.
 * Integrated Development Environment (IDE): NetBeans is recommended, but you can use any IDE that supports Java.
 > If you want to make use of the interface
