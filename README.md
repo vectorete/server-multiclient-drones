@@ -40,6 +40,7 @@
       <ul>
         <li><a href="#features">✨ Features</a></li>
         <li><a href="#built-with">🔨 Built With</a></li>
+        <li><a href="#project-phases">➡️ Project Phases</a></li>
       </ul>
     </li>
     <li>
@@ -84,6 +85,24 @@
 </div>
 
 The Drone Monitoring System is a project that simulates a drone monitoring system using a client-server architecture. The server manages multiple drone clients, processes their positions, and forwards position data to other drones. The system does not prevent collisions but efficiently manages a large number of clients for testing purposes.
+
+#### ➡️ Project Phases <a id="project-phases"></a>
+
+Since clients and the server can be on different machines, the simulation of the CAR communication system will be carried out in three phases:
+
+1. **Initiation Phase**:
+    - First, the server will start and ask the user for the values of the parameters N, V, and S.
+    - Next, it will wait for the N clients to appear and connect to it.
+    - The server will assign each new client an identifier and a group identifier (since V is a divisor of N, the client identifier is sufficient to know which group it belongs to).
+    - The client will receive its identifier and wait for the start signal of the simulation.
+
+2. **Simulation Phase**:
+    - Once all clients have connected to the system, the server will send a signal to all of them to start the simulation.
+    - From that moment on, each client executes the cycle indicated in the diagram asynchronously with the other clients. This cycle will be executed S times. At the end of each cycle, the client updates the average time it took to complete the cycle.
+
+3. **Calculation Phase**:
+    - When each client finishes its S iterations of the cycle, it sends the updated average response time of the S cycles to the server and then disconnects from the system.
+    - When all clients have finished and sent their averages, the server calculates the average response time for each group and the overall system response time for that simulation. These are the results that each simulation should provide.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +162,9 @@ To get a local copy up and running follow these simple steps.
     ```sh
     java Clientes.java
     ```
-    
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### 🖼️ Server and Client Setup with the interface (using NetBeans IDE) <a id="interface-setup"></a>
 
 1. **Clone the repository**:
@@ -189,6 +210,8 @@ When testing locally, be aware of the following:
      netsh int ipv4 set dynamicportrange tcp start=xxxxx num=yyyyy
      ```
      Replace `xxxxx` with the starting port number and `yyyyy` with the number of ports.
+     
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 📽️ Demos <a id="demos"></a>
 
