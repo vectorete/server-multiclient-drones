@@ -49,8 +49,8 @@
         <li>
           <a href="#installation">📥 Installation</a>
           <ul>
-            <li><a href="#server-setup">🖥 Server Setup</a></li>
-            <li><a href="#client-setup">👨🏻‍💼 Client Setup</a></li>
+            <li><a href="#no-interface-setup"></> Setup without the interface</a></li>
+            <li><a href="#interface-setup">🖼️ Server and Client Setup with the interface (using NetBeans IDE)</a></li>
           </ul>
         </li>
       </ul>
@@ -110,30 +110,64 @@ To get a local copy up and running follow these simple steps.
 
 * Java Development Kit (JDK): Ensure you have JDK 8 or higher installed.
 * Network Configuration: Ensure your network allows communication on the specified ports.
+* Integrated Development Environment (IDE): NetBeans is recommended, but you can use any IDE that supports Java.
+> If you want to make use of the interface
+
 
 ### 📥 Installation <a id="installation"></a>
 
-#### 🖥 Server Setup <a id="server-setup"></a>
+#### </> Setup without the interface <a id="no-interface-setup"></a>
+
+> You don't need the folder with the project of the client interface
 
 1. **Compile the server code**:
     ```sh
     javac Servidor.java
     ```
+    
 2. **Run the server**:
     ```sh
     java Servidor.java
     ```
+    
+3. **Introduce at the server your desired parameters in the input**
 
-#### 👨🏻‍💼 Client Setup <a id="client-setup"></a>
-
-1. **Compile the client code**:
+4. **Edit the clients code variables to match with the server parameters**
+   
+5. **Compile the client code**:
     ```sh
     javac Clientes.java
     ```
-2. **Run the clients**:
+    
+6. **Run the clients**:
     ```sh
     java Clientes.java
     ```
+    
+#### 🖼️ Server and Client Setup with the interface (using NetBeans IDE) <a id="interface-setup"></a>
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/vectorete/server-multiclient-drones.git
+    ```
+
+2. **Open the project in NetBeans**:
+    * Open NetBeans and navigate to `File > Open Project`.
+    * Select the cloned repository folder.
+
+3. **Build the project**:
+    * Right-click on the project in the `Projects` pane and select `Clean and Build`.
+
+4. **Configure the number of clients on the individual files**:
+    * Edit `Clientes.java` and set the number of clients to one less than the number in `Servidor.java` to account for the interface client, and the rest of the parameters as you desire.
+
+5. **Compile and run the server as before**:
+    * Open `Servidor.java` and set the number of clients, the size of groups, and the number of iterations in the input.
+
+6. **Compile an run the clients as before**:
+    * The last client will act as the interface to visualize the coordinates of each drone in its group.
+
+7. **Run the interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
