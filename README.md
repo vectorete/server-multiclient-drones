@@ -1,3 +1,4 @@
+
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
@@ -18,7 +19,7 @@
 <h3 align="center">Drone Monitoring System</h3>
 
   <p align="center">
-    A client-server architecture drone monitoring system to manage and simulate large-scale drone operations.
+    Client-server architecture drone monitoring system to manage and simulate configurable drone operations.
     <br />
     <a href="https://github.com/vectorete/server-multiclient-drones"><strong>Explore the docs »</strong></a>
     <br />
@@ -84,7 +85,7 @@
   </a>
 </div>
 
-The Drone Monitoring System is a project that simulates a drone monitoring system using a client-server architecture. The server manages multiple drone clients, processes their positions, and forwards position data to other drones. The system does not prevent collisions but efficiently manages a large number of clients for testing purposes.
+The Drone Monitoring System is a project that recreates a drone monitoring system, using a client-server architecture. The server manages multiple drone clients, processing their position, and forwarding their position data to other drones. The system does not prevent collisions but efficiently manages a large number of clients for testing purposes.
 
 #### ➡️ Project Phases <a id="project-phases"></a>
 
@@ -128,25 +129,30 @@ To get a local copy up and running follow these simple steps.
 ### 📝 Prerequisites <a id="prerequisites"></a>
 
 * Java Development Kit (JDK): Ensure you have JDK 8 or higher installed.
-> JDK 21 if you will use the interface
+> [!IMPORTANT]
+> JDK 21 if you will use the interface.
+
 * Network Configuration: Ensure your network allows communication on the specified ports.
 * Integrated Development Environment (IDE): NetBeans is recommended, but you can use any IDE that supports Java.
-> If you want to make use of the interface
+
+> [!IMPORTANT]
+>  If you want to make use of the interface is a must.
 
 
 ### 📥 Installation <a id="installation"></a>
 
 #### </> Setup without the interface <a id="no-interface-setup"></a>
 
+> [!NOTE]
 > You don't need the folder with the project of the client interface
 
 1. **Compile the server code**:
-    ```sh
+    ```java
     javac Servidor.java
     ```
     
 2. **Run the server**:
-    ```sh
+    ```java
     java Servidor.java
     ```
     
@@ -155,12 +161,12 @@ To get a local copy up and running follow these simple steps.
 4. **Edit the clients code variables to match with the server parameters**
    
 5. **Compile the client code**:
-    ```sh
+    ```java
     javac Clientes.java
     ```
     
 6. **Run the clients**:
-    ```sh
+    ```java
     java Clientes.java
     ```
 
@@ -169,7 +175,7 @@ To get a local copy up and running follow these simple steps.
 #### 🖼️ Server and Client Setup with the interface (using NetBeans IDE) <a id="interface-setup"></a>
 
 1. **Clone the repository**:
-    ```sh
+    ```java
     git clone https://github.com/vectorete/server-multiclient-drones.git
     ```
 
@@ -203,11 +209,11 @@ When testing locally, be aware of the following:
 - **Port Limits on Windows**: Windows may lock up to 16,384 ports for dynamic use. To test with more clients than this limit, you have two options:
   1. **Use Multiple PCs**: Distribute the clients across multiple machines to avoid hitting the port limit.
   2. **Change Port Limits**: Use the following command to view and adjust the dynamic port range on Windows:
-     ```sh
+     ```java
      netsh int ipv4 show dynamicportrange tcp
      ```
      To change the dynamic port range, use:
-     ```sh
+     ```java
      netsh int ipv4 set dynamicportrange tcp start=xxxxx num=yyyyy
      ```
      Replace `xxxxx` with the starting port number and `yyyyy` with the number of ports.
